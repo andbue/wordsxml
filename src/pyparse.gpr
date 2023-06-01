@@ -1,0 +1,10 @@
+project pyparse is
+   for Source_Dirs use (".");
+   for Object_Dir use "obj";
+   for Library_Name use "pyparse";
+   for Library_Dir use "lib";
+   for Library_Kind use "dynamic";
+   for Library_Interface use ("pyparse");
+   for Library_Auto_Init use "True";
+end pyparse;
+
